@@ -78,25 +78,6 @@
 - 从源码构建时需要 Xcode 26+
 - 网络连接
 
-## 从源码构建
-
-1. 使用 Xcode 26 或更高版本打开 `PaperVN.xcodeproj`。
-2. 选择 `PaperVN` scheme。
-3. 选择一台运行 iOS 26+ 的模拟器或设备，然后运行 App。
-4. 真机运行时，请在 Signing & Capabilities 中选择你自己的开发团队；如有需要，再更改 Bundle Identifier。
-
-命令行构建：
-
-```bash
-xcodebuild \
-  -project PaperVN.xcodeproj \
-  -scheme PaperVN \
-  -sdk iphonesimulator \
-  -configuration Debug \
-  CODE_SIGNING_ALLOWED=NO \
-  build
-```
-
 ## 连接你的 VNDB 账号
 
 浏览、探索和搜索公开数据不需要登录。读取与编辑资料库需要你自己的 VNDB Token：
