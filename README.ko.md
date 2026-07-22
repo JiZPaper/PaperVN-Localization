@@ -78,25 +78,6 @@ VNDB 계정을 연결해 보관함을 정리하고 상태, 플레이한 버전, 
 - 소스에서 빌드하려면 Xcode 26 이상
 - 인터넷 연결
 
-## 소스에서 빌드하기
-
-1. Xcode 26 이상에서 `PaperVN.xcodeproj`를 엽니다.
-2. `PaperVN` 스킴을 선택합니다.
-3. iOS 26 이상을 실행하는 시뮬레이터 또는 기기를 선택한 뒤 앱을 실행합니다.
-4. 실제 기기에서 실행하려면 Signing & Capabilities에서 본인의 개발 팀을 선택합니다. 필요한 경우 Bundle Identifier를 변경하세요.
-
-명령줄 빌드:
-
-```bash
-xcodebuild \
-  -project PaperVN.xcodeproj \
-  -scheme PaperVN \
-  -sdk iphonesimulator \
-  -configuration Debug \
-  CODE_SIGNING_ALLOWED=NO \
-  build
-```
-
 ## VNDB 계정 연결하기
 
 둘러보기와 작품 탐색, 공개 데이터 검색은 로그인 없이 이용할 수 있습니다. 보관함을 읽고 편집하려면 본인의 VNDB 토큰이 필요합니다.
