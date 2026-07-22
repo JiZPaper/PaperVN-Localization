@@ -75,7 +75,6 @@ Connect your VNDB account to organize your library and update status, played rel
 ## Requirements
 
 - iOS 26.0+ or iPadOS 26.0+
-- Xcode 26+ when building from source
 - An internet connection
 
 ## Connect your VNDB account
