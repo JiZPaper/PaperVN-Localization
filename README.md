@@ -78,25 +78,6 @@ Connect your VNDB account to organize your library and update status, played rel
 - Xcode 26+ when building from source
 - An internet connection
 
-## Build from source
-
-1. Open `PaperVN.xcodeproj` in Xcode 26 or later.
-2. Select the `PaperVN` scheme.
-3. Choose an iOS 26+ simulator or device and run the app.
-4. For a physical device, select your own development team under Signing & Capabilities. Change the Bundle Identifier if needed.
-
-Command-line build:
-
-```bash
-xcodebuild \
-  -project PaperVN.xcodeproj \
-  -scheme PaperVN \
-  -sdk iphonesimulator \
-  -configuration Debug \
-  CODE_SIGNING_ALLOWED=NO \
-  build
-```
-
 ## Connect your VNDB account
 
 Browsing, discovery, and public-data search work without signing in. Reading and editing your library requires your own VNDB Token:
